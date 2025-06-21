@@ -27,8 +27,18 @@ with st.expander("💡 How does it work?"):
 
 
 with col2:
-    st.image("https://i.ibb.co/WN4f7FDV/commingsoon-looplyfe.png", width = 120)
-    st.markdown("##Comming Soon...")
+    st.image("https://i.ibb.co/M3GNzBg/fate-flip.png", width = 120)
+    st.markdown("## 🪙Fate Flip")
+    st.caption("Not just a normal coin toss...")
+    st.link_button("🪙Try now", "https://fate-flip-kqfqirehbkpj2ocmturhwa.streamlit.app/")
+
+with st.expander("💡 How does it work?"):
+    st.write("""" Fate Flip is a playful web app 
+        built with Python and Streamlit that lets users flip a coin... but not just any coin.
+        You can customize what "Heads" and "Tails" mean — whether it's "I eat pizza" vs. 
+        "I study tonight", or "Quit my job" vs. "Keep grinding".""")    
+
+    
 
 
 
