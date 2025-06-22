@@ -38,10 +38,22 @@ with st.expander("💡 How does it work?"):
         You can customize what "Heads" and "Tails" mean — whether it's "I eat pizza" vs. 
         "I study tonight", or "Quit my job" vs. "Keep grinding".""")    
 
+st.divider()
+
+col3, col4 = st.columns(2)
+
+with col3:
+    stimage("https://i.ibb.co/pBvrYgwV/dare-dungeon.png")
+    st.markdown("## 🧩dare Dungeon")
+    st.caption("Just a simple dare game")
+    st.link_button("🧩Try now", "https://dare-dungeon-rnfvfoq36qckfybnu3vkzw.streamlit.app/")
     
+with st.expander("""Dare Dungeon is a fun, interactive web app designed to challenge users with spontaneous, light-hearted dares.""")
 
-
-
+with col4:
+    st.image("https://i.ibb.co/hRHGhhs4/commingsoon-looplyfe.png")
+    st.markdown("Comming Soon...")
+    st.caption("wait ...")
 
 
 
